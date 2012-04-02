@@ -1,0 +1,86 @@
+{
+  "title": "Polymorphic Programming",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "21e941c8537e3f41",
+      "text": "Here are some hints on how to do Polymorphic Programming effectively. Suppose you are a programmer who solves all [[Selection]] problems with \"if\" statements and \"switches\". "
+    },
+    {
+      "type": "paragraph",
+      "id": "6fc723d7e6f9c48a",
+      "text": "A basic assumption here is that you are developing a program incrementally, rather than all at once. You are using Piecemeal Growth, rather than Big Design Up Front. The rules are different if you know everything in advance and nothing ever changes than the more typical situation in which (a) you don't, and (b) they do. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "d17cecdf06cd8d6a",
+      "item": {
+        "title": "Polymorphic Programming"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "21e941c8537e3f41"
+      },
+      "id": "21e941c8537e3f41",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "21e941c8537e3f41",
+      "item": {
+        "type": "paragraph",
+        "id": "21e941c8537e3f41",
+        "text": "Here are some hints on how to do Polymorphic Programming effectively. Suppose you are a programmer who solves all [[Selection]] problems with \"if\" statements and \"switches\". "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6fc723d7e6f9c48a"
+      },
+      "id": "6fc723d7e6f9c48a",
+      "type": "add",
+      "after": "21e941c8537e3f41"
+    },
+    {
+      "type": "edit",
+      "id": "6fc723d7e6f9c48a",
+      "item": {
+        "type": "paragraph",
+        "id": "6fc723d7e6f9c48a",
+        "text": "A basic assumption here is that you are developing a program incrementally, rather than all at once. You are using Piecemeal Growth, rather than Big Design Up Front. The rules are different if you know everything in advance and nothing ever changes than the more typical situation in which (a) you don't, and (b) they do. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c757ed6aa1c8e9f6"
+      },
+      "id": "c757ed6aa1c8e9f6",
+      "type": "add",
+      "after": "6fc723d7e6f9c48a"
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "8df93fdb9b9c759c",
+        "text": "<pre>\nif (foo) {\n   bar();\n}else{\n   bas();\n}\n</pre>"
+      },
+      "after": "6fc723d7e6f9c48a",
+      "id": "8df93fdb9b9c759c"
+    },
+    {
+      "type": "remove",
+      "id": "c757ed6aa1c8e9f6"
+    },
+    {
+      "type": "remove",
+      "id": "8df93fdb9b9c759c"
+    }
+  ]
+}

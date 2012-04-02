@@ -1,0 +1,36 @@
+{
+  "title": "Say It Once",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "1a9fce8512c56365",
+      "text": "A low level coding pattern, from Kent Beck's Smalltalk Best Practice Patterns. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "fec489aa5c0ce05d",
+      "item": {
+        "title": "Say It Once"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1a9fce8512c56365"
+      },
+      "id": "1a9fce8512c56365",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "1a9fce8512c56365",
+      "item": {
+        "type": "paragraph",
+        "id": "1a9fce8512c56365",
+        "text": "A low level coding pattern, from Kent Beck's Smalltalk Best Practice Patterns. "
+      }
+    }
+  ]
+}
