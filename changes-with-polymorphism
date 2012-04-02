@@ -15,6 +15,26 @@
       "type": "paragraph",
       "id": "c120f31d522a7086",
       "text": "Here we discuss P1. P2 is deferred to [[Marshaling the Objects]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "ab8128b59c04edd9",
+      "text": "We will, in fact, be implementing a design pattern here: Strategy. We will develop different strategies to handle different situations. The strategies will be objects. The big idea is that the objects are \"flags with behavior.\" "
+    },
+    {
+      "type": "paragraph",
+      "id": "61b2129a482ab27e",
+      "text": "But let's back up a bit in the development process. Suppose we are early in the programming and have just recognized that at site U1 we have two behaviors and must choose between them. You could ether start to develop the polymorphic structure now, or wait until you see U2 requires a similar breakdown. To keep this short, we will assume that you immediately recognize this as a recurring situation and decide to go polymorphic. Otherwise, just write the if statement and refactor later into what we will see below. "
+    },
+    {
+      "type": "paragraph",
+      "id": "c242c90517878a8d",
+      "text": "So, we are at site U1 needing two different behaviors. We build two classes, likely implementing the same interface which we design for this situation. The interface defines one method and behaviors A and C are programmed as the implementations of these methods in the two classes. Depending on the situation, you may need constructors for the classes and may, of course have fields to preserve arbitrary information. This is part of the beauty of this solution. To make this a bit less abstract see [[Example Part One]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "98dc0061447e55c4",
+      "text": "Later in development, we find ourselves at site U2, needing to do different things, but with the same selection structure as before. Give the interface another method and implement it in the two classes with behaviors we have called B and D. See [[Example Part Two]] for a concrete example. "
     }
   ],
   "journal": [
@@ -85,6 +105,105 @@
         "type": "paragraph",
         "id": "c120f31d522a7086",
         "text": "Here we discuss P1. P2 is deferred to [[Marshaling the Objects]]."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ab8128b59c04edd9"
+      },
+      "id": "ab8128b59c04edd9",
+      "type": "add",
+      "after": "c120f31d522a7086"
+    },
+    {
+      "type": "edit",
+      "id": "ab8128b59c04edd9",
+      "item": {
+        "type": "paragraph",
+        "id": "ab8128b59c04edd9",
+        "text": "We will, in fact, be implementing a design pattern here: Strategy. We will develop different strategies to handle different situations. The strategies will be objects. The big idea is that the objects are \"flags with behavior.\" "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "61b2129a482ab27e"
+      },
+      "id": "61b2129a482ab27e",
+      "type": "add",
+      "after": "ab8128b59c04edd9"
+    },
+    {
+      "type": "edit",
+      "id": "61b2129a482ab27e",
+      "item": {
+        "type": "paragraph",
+        "id": "61b2129a482ab27e",
+        "text": "But let's back up a bit in the development process. Suppose we are early in the programming and have just recognized that at site U1 we have two behaviors and must choose between them. You could ether start to develop the polymorphic structure now, or wait until you see U2 requires a similar breakdown. To keep this short, we will assume that you immediately recognize this as a recurring situation and decide to go polymorphic. Otherwise, just write the if statement and refactor later into what we will see below. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c242c90517878a8d"
+      },
+      "id": "c242c90517878a8d",
+      "type": "add",
+      "after": "61b2129a482ab27e"
+    },
+    {
+      "type": "edit",
+      "id": "c242c90517878a8d",
+      "item": {
+        "type": "paragraph",
+        "id": "c242c90517878a8d",
+        "text": "So, we are at site U1 needing two different behaviors. We build two classes, likely implementing the same interface which we design for this situation. The interface defines one method and behaviors A and C are programmed as the implementations of these methods in the two classes. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "c242c90517878a8d",
+      "item": {
+        "type": "paragraph",
+        "id": "c242c90517878a8d",
+        "text": "So, we are at site U1 needing two different behaviors. We build two classes, likely implementing the same interface which we design for this situation. The interface defines one method and behaviors A and C are programmed as the implementations of these methods in the two classes. Depending on the situation, you may need constructors for the classes and may, of course have fields to preserve arbitrary information. This is part of the beauty of this solution. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "c242c90517878a8d",
+      "item": {
+        "type": "paragraph",
+        "id": "c242c90517878a8d",
+        "text": "So, we are at site U1 needing two different behaviors. We build two classes, likely implementing the same interface which we design for this situation. The interface defines one method and behaviors A and C are programmed as the implementations of these methods in the two classes. Depending on the situation, you may need constructors for the classes and may, of course have fields to preserve arbitrary information. This is part of the beauty of this solution. To make this a bit less abstract see [[Example Part One]]"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "c242c90517878a8d",
+      "item": {
+        "type": "paragraph",
+        "id": "c242c90517878a8d",
+        "text": "So, we are at site U1 needing two different behaviors. We build two classes, likely implementing the same interface which we design for this situation. The interface defines one method and behaviors A and C are programmed as the implementations of these methods in the two classes. Depending on the situation, you may need constructors for the classes and may, of course have fields to preserve arbitrary information. This is part of the beauty of this solution. To make this a bit less abstract see [[Example Part One]]."
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "98dc0061447e55c4"
+      },
+      "id": "98dc0061447e55c4",
+      "type": "add",
+      "after": "c242c90517878a8d"
+    },
+    {
+      "type": "edit",
+      "id": "98dc0061447e55c4",
+      "item": {
+        "type": "paragraph",
+        "id": "98dc0061447e55c4",
+        "text": "Later in development, we find ourselves at site U2, needing to do different things, but with the same selection structure as before. Give the interface another method and implement it in the two classes with behaviors we have called B and D. See [[Example Part Two]] for a concrete example. "
       }
     }
   ]

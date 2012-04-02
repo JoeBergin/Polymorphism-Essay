@@ -1,0 +1,169 @@
+{
+  "title": "Example Part One",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ca1db42f5eb2b40f",
+      "text": "Suppose you are writing an application that must deal with amounts of money entered from a keyboard or entered via a GUI. Money can be inserted into a vending machine, change must be made, product must be sold, etc. But negative amounts of money are problematical if entered via some non-physical medium. It would be nice to make a withdrawal of negative amounts of money and have my bank balance increase, but it doesn't happen. "
+    },
+    {
+      "type": "paragraph",
+      "id": "3a09154926a35232",
+      "text": "Suppose we are handling inserting of money. Negative amounts should throw an exception (perhaps) and positive amounts should increment a running total. Two behaviors. "
+    },
+    {
+      "type": "paragraph",
+      "id": "f120cd4e2c2e78d9",
+      "text": "Write an interface Money with one method: insert. Implement insert twice, once in each of two classes, one for NegativeAmount and one for NonNegativeAmount. The classes implement the interface, of course. "
+    },
+    {
+      "type": "paragraph",
+      "id": "efe1f8c76db961fa",
+      "text": "Later in the development, if it turns out that there is a third behavior, say we don't handle money above a certain level at all, we can add a third class that also implements insert and \"does the right thing.\" "
+    },
+    {
+      "type": "paragraph",
+      "id": "29f4ce6d1bb8a361",
+      "text": "But note, that no existing code has to be changed to account for this (except for [[Marshaling the Objects]], of course). "
+    },
+    {
+      "type": "paragraph",
+      "id": "3168b8d7b75f2e21",
+      "text": "What we have been calling a \"site\" can now be better described as a \"situation.\" We are in the situation of inserting money. The insert methods in the classes handle this situation. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "e17ea4ecba7d60bb",
+      "item": {
+        "title": "Example Part One"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ca1db42f5eb2b40f"
+      },
+      "id": "ca1db42f5eb2b40f",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "ca1db42f5eb2b40f",
+      "item": {
+        "type": "paragraph",
+        "id": "ca1db42f5eb2b40f",
+        "text": "Suppose you are writing an application that must deal with amounts of money entered from a keyboard or entered via a GUI. Money can be inserted into a vending machine, change must be made, product must be sold, etc. But negative amounts of money are problematical if entered via some non-physical medium. It would be nice to make a withdrawal of negative amounts of money and have my bank balance increase, but it doesn't happen. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3a09154926a35232"
+      },
+      "id": "3a09154926a35232",
+      "type": "add",
+      "after": "ca1db42f5eb2b40f"
+    },
+    {
+      "type": "edit",
+      "id": "3a09154926a35232",
+      "item": {
+        "type": "paragraph",
+        "id": "3a09154926a35232",
+        "text": "Suppose we are handling inserting of money. Negative amounts should throw an exception (perhaps) and positive amounts should increment a running total. Two behaviors. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f120cd4e2c2e78d9"
+      },
+      "id": "f120cd4e2c2e78d9",
+      "type": "add",
+      "after": "3a09154926a35232"
+    },
+    {
+      "type": "edit",
+      "id": "f120cd4e2c2e78d9",
+      "item": {
+        "type": "paragraph",
+        "id": "f120cd4e2c2e78d9",
+        "text": "Write an interface Money with one method: insert. Implement insert twice, once in each of two classes, one for NegativeAmount and one for NonNegativeAmount. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "f120cd4e2c2e78d9",
+      "item": {
+        "type": "paragraph",
+        "id": "f120cd4e2c2e78d9",
+        "text": "Write an interface Money with one method: insert. Implement insert twice, once in each of two classes, one for NegativeAmount and one for NonNegativeAmount. The classes implement the interface, of course. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "efe1f8c76db961fa"
+      },
+      "id": "efe1f8c76db961fa",
+      "type": "add",
+      "after": "f120cd4e2c2e78d9"
+    },
+    {
+      "type": "edit",
+      "id": "efe1f8c76db961fa",
+      "item": {
+        "type": "paragraph",
+        "id": "efe1f8c76db961fa",
+        "text": "Later in the development, if it turns out that there is a third behavior, say we don't handle money above a certain level at all, we can add a third class that also implements insert and \"does the right thing.\" "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "29f4ce6d1bb8a361"
+      },
+      "id": "29f4ce6d1bb8a361",
+      "type": "add",
+      "after": "efe1f8c76db961fa"
+    },
+    {
+      "type": "edit",
+      "id": "29f4ce6d1bb8a361",
+      "item": {
+        "type": "paragraph",
+        "id": "29f4ce6d1bb8a361",
+        "text": "But note, that no existing code has to be changed to account for this (except for [[Marshaling the Objects]], of course. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "29f4ce6d1bb8a361",
+      "item": {
+        "type": "paragraph",
+        "id": "29f4ce6d1bb8a361",
+        "text": "But note, that no existing code has to be changed to account for this (except for [[Marshaling the Objects]], of course). "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3168b8d7b75f2e21"
+      },
+      "id": "3168b8d7b75f2e21",
+      "type": "add",
+      "after": "29f4ce6d1bb8a361"
+    },
+    {
+      "type": "edit",
+      "id": "3168b8d7b75f2e21",
+      "item": {
+        "type": "paragraph",
+        "id": "3168b8d7b75f2e21",
+        "text": "What we have been calling a \"site\" can now be better described as a \"situation.\" We are in the situation of inserting money. The insert methods in the classes handle this situation. "
+      }
+    }
+  ]
+}
