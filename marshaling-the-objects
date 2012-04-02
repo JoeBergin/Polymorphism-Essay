@@ -1,0 +1,36 @@
+{
+  "title": "Marshaling the Objects",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2a0c98a83703c6b8",
+      "text": "In addition to having the right objects in your program to handle the behaviors associated with the choices, you need to bring the correct object to bear at the given time. This problem is much harder in general and we only give some hints for how it can be done. "
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "487a922e39c9413a",
+      "item": {
+        "title": "Marshaling the Objects"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2a0c98a83703c6b8"
+      },
+      "id": "2a0c98a83703c6b8",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "2a0c98a83703c6b8",
+      "item": {
+        "type": "paragraph",
+        "id": "2a0c98a83703c6b8",
+        "text": "In addition to having the right objects in your program to handle the behaviors associated with the choices, you need to bring the correct object to bear at the given time. This problem is much harder in general and we only give some hints for how it can be done. "
+      }
+    }
+  ]
+}

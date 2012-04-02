@@ -1,0 +1,91 @@
+{
+  "title": "Changes With Polymorphism",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "eb3500097e5b7b4a",
+      "text": "To handle the same three common changes to a program using polymorphism, you first need to understand the two tasks for handling polymorphism at a given site, stated as principles:<br/>\n(P1) Get the behaviors into different objects.<br/>\n(P2) Bring the right object to bear. <br/>\nThe first of these is the easy part. "
+    },
+    {
+      "type": "paragraph",
+      "id": "1092f8c791ee9bb4",
+      "text": "We need different objects. That may or may not mean different classes. When you can parameterize objects from a single class it is easier, but we will show only the other. It isn't really harder, just more typing. But typing isn't what makes programming hard. "
+    },
+    {
+      "type": "paragraph",
+      "id": "c120f31d522a7086",
+      "text": "Here we discuss P1. P2 is deferred to [[Marshaling the Objects]]."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "ac085a05c3637b17",
+      "item": {
+        "title": "Changes With Polymorphism"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "eb3500097e5b7b4a"
+      },
+      "id": "eb3500097e5b7b4a",
+      "type": "add"
+    },
+    {
+      "type": "edit",
+      "id": "eb3500097e5b7b4a",
+      "item": {
+        "type": "paragraph",
+        "id": "eb3500097e5b7b4a",
+        "text": "To handle the same three common changes to a program using polymorphism, you first need to understand the two tasks for handling polymorphism at a given site, stated as principles:<br/>\n(P1) Get the behaviors into different objects<br/>\n(P2) Bring the right object to bear. <br/>\nThe first of these is the easy part. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "eb3500097e5b7b4a",
+      "item": {
+        "type": "paragraph",
+        "id": "eb3500097e5b7b4a",
+        "text": "To handle the same three common changes to a program using polymorphism, you first need to understand the two tasks for handling polymorphism at a given site, stated as principles:<br/>\n(P1) Get the behaviors into different objects.<br/>\n(P2) Bring the right object to bear. <br/>\nThe first of these is the easy part. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1092f8c791ee9bb4"
+      },
+      "id": "1092f8c791ee9bb4",
+      "type": "add",
+      "after": "eb3500097e5b7b4a"
+    },
+    {
+      "type": "edit",
+      "id": "1092f8c791ee9bb4",
+      "item": {
+        "type": "paragraph",
+        "id": "1092f8c791ee9bb4",
+        "text": "We need different objects. That may or may not mean different classes. When you can parameterize objects from a single class it is easier, but we will show only the other. It isn't really harder, just more typing. But typing isn't what makes programming hard. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c120f31d522a7086"
+      },
+      "id": "c120f31d522a7086",
+      "type": "add",
+      "after": "1092f8c791ee9bb4"
+    },
+    {
+      "type": "edit",
+      "id": "c120f31d522a7086",
+      "item": {
+        "type": "paragraph",
+        "id": "c120f31d522a7086",
+        "text": "Here we discuss P1. P2 is deferred to [[Marshaling the Objects]]."
+      }
+    }
+  ]
+}

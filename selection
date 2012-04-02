@@ -28,6 +28,11 @@
     },
     {
       "type": "paragraph",
+      "id": "499091d2aa36dbb8",
+      "text": "A third possibility is that you are adding something new that requires the same decision structure. Here a new choice will need to be made at a different place in the program, with new behaviors for the various cases. "
+    },
+    {
+      "type": "paragraph",
       "id": "e1cac55e09a57754",
       "text": "Of course you want to [[Say It Once]], which isn't hard to do for the behaviors, but is more complex for the choice structure. This is what polymorphic programming is all about. Once you Climb [[Information Hill]] you want to stay at the top, rather than fall down the other side. "
     }
@@ -203,6 +208,37 @@
         "type": "paragraph",
         "id": "340ba4b2887986ba",
         "text": "When you encounter repeated situations that must decide, based on the same criteria, ad-hoc selection doesn't serve you well in incremental development. The problem is that when changes occur in the code base, you need to find all of the previously built instances of this and update them consistently. But the tools available aren't usually very helpful with this. And if you miss just one, your program is broken. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "499091d2aa36dbb8"
+      },
+      "id": "499091d2aa36dbb8",
+      "type": "add",
+      "after": "e1cac55e09a57754"
+    },
+    {
+      "type": "move",
+      "order": [
+        "57e3301a4964b9c7",
+        "d747b54fe785f2df",
+        "c2085cc89d44ded0",
+        "340ba4b2887986ba",
+        "4e4037ba65350c9d",
+        "499091d2aa36dbb8",
+        "e1cac55e09a57754"
+      ],
+      "id": "499091d2aa36dbb8"
+    },
+    {
+      "type": "edit",
+      "id": "499091d2aa36dbb8",
+      "item": {
+        "type": "paragraph",
+        "id": "499091d2aa36dbb8",
+        "text": "A third possibility is that you are adding something new that requires the same decision structure. Here a new choice will need to be made at a different place in the program, with new behaviors for the various cases. "
       }
     }
   ]
