@@ -18,6 +18,16 @@
     },
     {
       "type": "paragraph",
+      "id": "b28329bb5f7aa4f1",
+      "text": "Note on my [[Experiences]] in using this wiki as a medium of expression for an essay. "
+    },
+    {
+      "type": "paragraph",
+      "id": "016c26bc4930c516",
+      "text": "<hr/>"
+    },
+    {
+      "type": "paragraph",
       "id": "aeeaf9df2e7af92d",
       "text": "To make this wiki your own, do the following. "
     },
@@ -53,11 +63,6 @@
       "text": "This page was first drafted Sunday, June 26th, 2011, at [[Indie Web Camp]]. You are welcome to copy this page to any server you own and revise its welcoming message as you see fit. You can assume this has happened many times already.",
       "id": "7b56f22a4b9ee974",
       "type": "paragraph"
-    },
-    {
-      "type": "paragraph",
-      "id": "016c26bc4930c516",
-      "text": "<hr/>"
     }
   ],
   "journal": [
@@ -610,6 +615,71 @@
     {
       "type": "remove",
       "id": "d56dd5e36c2ebb63"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b28329bb5f7aa4f1"
+      },
+      "id": "b28329bb5f7aa4f1",
+      "type": "add",
+      "after": "016c26bc4930c516"
+    },
+    {
+      "type": "edit",
+      "id": "b28329bb5f7aa4f1",
+      "item": {
+        "type": "paragraph",
+        "id": "b28329bb5f7aa4f1",
+        "text": "Note on my [[experiences]] in using this wiki as a medium of expression for an essay. "
+      }
+    },
+    {
+      "type": "edit",
+      "id": "b28329bb5f7aa4f1",
+      "item": {
+        "type": "paragraph",
+        "id": "b28329bb5f7aa4f1",
+        "text": "Note on my [[Experiences]] in using this wiki as a medium of expression for an essay. "
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "57b206a5457d1b73",
+        "0af1a360069e8729",
+        "1e570bcfba0c419d",
+        "b28329bb5f7aa4f1",
+        "aeeaf9df2e7af92d",
+        "821827c99b90cfd1",
+        "a8d07bfffb0756ee",
+        "2bbd646ff3f44b51",
+        "05e2fa92643677ca",
+        "0cbb4ef5f5d7e472",
+        "ee416d431ebf4fb4",
+        "7b56f22a4b9ee974",
+        "016c26bc4930c516"
+      ],
+      "id": "b28329bb5f7aa4f1"
+    },
+    {
+      "type": "move",
+      "order": [
+        "57b206a5457d1b73",
+        "0af1a360069e8729",
+        "1e570bcfba0c419d",
+        "b28329bb5f7aa4f1",
+        "016c26bc4930c516",
+        "aeeaf9df2e7af92d",
+        "821827c99b90cfd1",
+        "a8d07bfffb0756ee",
+        "2bbd646ff3f44b51",
+        "05e2fa92643677ca",
+        "0cbb4ef5f5d7e472",
+        "ee416d431ebf4fb4",
+        "7b56f22a4b9ee974"
+      ],
+      "id": "016c26bc4930c516"
     }
   ],
   "synopsys": "The first federated wiki page written and often first page viewed."
