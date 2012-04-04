@@ -83,6 +83,11 @@
       "type": "paragraph",
       "id": "8f27ee786ae59d06",
       "text": "Compare to [[Changes With Polymorphism]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "4c4a5f85c232fc53",
+      "text": "Note that the need to look around the program in order to update various locations for a change violates the [[Say It Once]] principle. So perhaps we should [[Revisit Say It Once]]"
     }
   ],
   "journal": [
@@ -829,6 +834,24 @@
         "type": "paragraph",
         "id": "ad77113bb1d0c982",
         "text": "If we have been using ad-hoc selection, then to solve our simple choice problem, we might have some code like the following at site U1:\n<pre>\nif (foo() == a)\n   A();\nelse if (foo() == b)\n   C();\nelse\n   error();\n</pre>\nAt site U2 it will be similar. \n<pre>\nif (foo() == a)\n   B();\nelse if (foo() == b)\n   D();\nelse\n   error();\n</pre>"
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4c4a5f85c232fc53"
+      },
+      "id": "4c4a5f85c232fc53",
+      "type": "add",
+      "after": "8f27ee786ae59d06"
+    },
+    {
+      "type": "edit",
+      "id": "4c4a5f85c232fc53",
+      "item": {
+        "type": "paragraph",
+        "id": "4c4a5f85c232fc53",
+        "text": "Note that the need to look around the program in order to update various locations for a change violates the [[Say It Once]] principle. So perhaps we should [[Revisit Say It Once]]"
       }
     }
   ]

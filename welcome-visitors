@@ -588,6 +588,28 @@
         "id": "0af1a360069e8729",
         "text": "Essay on [[Polymorphic Programming]] by [[Joe Bergin]]"
       }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d56dd5e36c2ebb63"
+      },
+      "id": "d56dd5e36c2ebb63",
+      "type": "add",
+      "after": "016c26bc4930c516"
+    },
+    {
+      "type": "edit",
+      "id": "d56dd5e36c2ebb63",
+      "item": {
+        "type": "paragraph",
+        "id": "d56dd5e36c2ebb63",
+        "text": "[[Recent Changes]]"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "d56dd5e36c2ebb63"
     }
   ],
   "synopsys": "The first federated wiki page written and often first page viewed."

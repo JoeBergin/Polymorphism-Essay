@@ -13,6 +13,11 @@
     },
     {
       "type": "paragraph",
+      "id": "a1b777b5f1340cc1",
+      "text": "Perhaps you are wondering [[Why Do This]]"
+    },
+    {
+      "type": "paragraph",
       "id": "c0c9a9dce69e5f7e",
       "text": "As discussed under [[Selection]] here is what you may be faced with when change occurs. Suppose you start with the following simple situation. "
     },
@@ -260,6 +265,37 @@
         "7efb18e466ae7291"
       ],
       "id": "59867a94b1b3c81f"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a1b777b5f1340cc1"
+      },
+      "id": "a1b777b5f1340cc1",
+      "type": "add",
+      "after": "7efb18e466ae7291"
+    },
+    {
+      "type": "edit",
+      "id": "a1b777b5f1340cc1",
+      "item": {
+        "type": "paragraph",
+        "id": "a1b777b5f1340cc1",
+        "text": "Perhaps you are wondering [[Why Do This]]"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "21e941c8537e3f41",
+        "6fc723d7e6f9c48a",
+        "a1b777b5f1340cc1",
+        "c0c9a9dce69e5f7e",
+        "59867a94b1b3c81f",
+        "672ac831a6ae5522",
+        "7efb18e466ae7291"
+      ],
+      "id": "a1b777b5f1340cc1"
     }
   ]
 }

@@ -37,6 +37,11 @@
       "type": "paragraph",
       "id": "3168b8d7b75f2e21",
       "text": "What we have been calling a \"site\" can now be better described as a \"situation.\" We are in the situation of inserting money. The insert methods in the classes handle this situation. "
+    },
+    {
+      "type": "paragraph",
+      "id": "44a9639ecb259261",
+      "text": "Continue on to [[Example Part Two]]"
     }
   ],
   "journal": [
@@ -223,6 +228,24 @@
         "type": "paragraph",
         "id": "29f4ce6d1bb8a361",
         "text": "But note, that no existing code has to be changed to account for this third option (except for [[Marshaling the Objects]], of course). All the new code is in a new class. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "44a9639ecb259261"
+      },
+      "id": "44a9639ecb259261",
+      "type": "add",
+      "after": "3168b8d7b75f2e21"
+    },
+    {
+      "type": "edit",
+      "id": "44a9639ecb259261",
+      "item": {
+        "type": "paragraph",
+        "id": "44a9639ecb259261",
+        "text": "Continue on to [[Example Part Two]]"
       }
     }
   ]

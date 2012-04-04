@@ -52,6 +52,11 @@
       "type": "paragraph",
       "id": "f612e351fa1662ec",
       "text": "Second, you don't write very much more code in the polymorphic solution. The class structure required is not much more that the if statement structure if you brace everything (which you should, but we did not, for reasons of space on the page here.) Constructors and interfaces add a bit more, but they also give you much more. "
+    },
+    {
+      "type": "paragraph",
+      "id": "d1d58d50edda446b",
+      "text": "On to [[Example Part Three]]"
     }
   ],
   "journal": [
@@ -310,6 +315,24 @@
         "type": "paragraph",
         "id": "f612e351fa1662ec",
         "text": "Second, you don't write very much more code in the polymorphic solution. The class structure required is not much more that the if statement structure if you brace everything (which you should, but we did not, for reasons of space on the page here.) Constructors and interfaces add a bit more, but they also give you much more. "
+      }
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d1d58d50edda446b"
+      },
+      "id": "d1d58d50edda446b",
+      "type": "add",
+      "after": "f612e351fa1662ec"
+    },
+    {
+      "type": "edit",
+      "id": "d1d58d50edda446b",
+      "item": {
+        "type": "paragraph",
+        "id": "d1d58d50edda446b",
+        "text": "On to [[Example Part Three]]"
       }
     }
   ]
