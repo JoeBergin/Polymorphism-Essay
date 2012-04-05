@@ -1,0 +1,126 @@
+{
+  "title": "Index Of Pages",
+  "journal": [
+    {
+      "id": "c35cfbbb3e2fc9cb",
+      "type": "create",
+      "item": {
+        "title": "Index Of Pages"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "4e5ceb6027b8ed08",
+      "item": {
+        "text": "[[DTSTTCPW]]",
+        "id": "4e5ceb6027b8ed08",
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "edit",
+      "id": "9b217250f07b5ca6",
+      "item": {
+        "text": "[[Changes With Ad-Hoc Selection]]",
+        "id": "9b217250f07b5ca6",
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "d5276092dfb80751"
+    }
+  ],
+  "story": [
+    {
+      "text": "[[Changes With Ad-Hoc Selection]]",
+      "id": "9b217250f07b5ca6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Changes With Polymorphism]]",
+      "id": "754c1659ac321865",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Consequences]]",
+      "id": "9f101938fdc3cf0a",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Creativity Under Constraint]]",
+      "id": "f785edfce91603b2",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[DTSTTCPW]]",
+      "id": "4e5ceb6027b8ed08",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Example Part One]]",
+      "id": "0d99c619e767b45d",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Example Part Three]]",
+      "id": "c7e1648fbfcadc18",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Example Part Two]]",
+      "id": "f8c78fa6eafd0ae3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Experiences]]",
+      "id": "42f18cedc3cd58aa",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Information Hill]]",
+      "id": "efc4c4d509df0ae2",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Joe Bergin]]",
+      "id": "382297983c4135d1",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Marshaling The Objects]]",
+      "id": "3fa503cac82880a1",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Polymorphic Programming]]",
+      "id": "59a15750e8733f07",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Revisit Say It Once]]",
+      "id": "410178bcc9ce1ce6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Say It Once]]",
+      "id": "1864c0b58f485dd8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Selection]]",
+      "id": "2ebe78a3f5275295",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[War Story One]]",
+      "id": "6f55ecdfe5bce1b4",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Why Do This]]",
+      "id": "4f8a8a7b2920040c",
+      "type": "paragraph"
+    }
+  ]
+}

@@ -216,6 +216,64 @@
     {
       "type": "fork",
       "site": "new.fed.wiki.org"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7762edb553a2d202"
+      },
+      "id": "7762edb553a2d202",
+      "type": "add",
+      "after": "7b56f22a4b9ee974"
+    },
+    {
+      "type": "edit",
+      "id": "7762edb553a2d202",
+      "item": {
+        "type": "paragraph",
+        "id": "7762edb553a2d202",
+        "text": "[[Index Of Pages]]"
+      }
+    },
+    {
+      "type": "move",
+      "order": [
+        "57b206a5457d1b73",
+        "0af1a360069e8729",
+        "1e570bcfba0c419d",
+        "b28329bb5f7aa4f1",
+        "016c26bc4930c516",
+        "aeeaf9df2e7af92d",
+        "821827c99b90cfd1",
+        "a8d07bfffb0756ee",
+        "7762edb553a2d202",
+        "2bbd646ff3f44b51",
+        "05e2fa92643677ca",
+        "0cbb4ef5f5d7e472",
+        "ee416d431ebf4fb4",
+        "7b56f22a4b9ee974"
+      ],
+      "id": "7762edb553a2d202"
+    },
+    {
+      "type": "move",
+      "order": [
+        "57b206a5457d1b73",
+        "0af1a360069e8729",
+        "7762edb553a2d202",
+        "1e570bcfba0c419d",
+        "b28329bb5f7aa4f1",
+        "016c26bc4930c516",
+        "aeeaf9df2e7af92d",
+        "821827c99b90cfd1",
+        "a8d07bfffb0756ee",
+        "2bbd646ff3f44b51",
+        "05e2fa92643677ca",
+        "0cbb4ef5f5d7e472",
+        "ee416d431ebf4fb4",
+        "7b56f22a4b9ee974"
+      ],
+      "id": "7762edb553a2d202"
     }
   ],
   "story": [
@@ -228,6 +286,11 @@
       "text": "Essay on [[Polymorphic Programming]] by [[Joe Bergin]]",
       "id": "0af1a360069e8729",
       "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "id": "7762edb553a2d202",
+      "text": "[[Index Of Pages]]"
     },
     {
       "text": "<hr/>",
